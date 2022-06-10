@@ -1,0 +1,22 @@
+{
+	"languages":
+	{
+		"ENGLISH":
+		{
+			"localization_key": "LANGUAGE_ENGLISH",
+			"culture_code": "en-GB",
+		}
+	},
+	"text":
+	{
+		"LANGUAGE_ENGLISH": "English",
+		"LANGUAGE_CHINESE": "Chinese",
+		"UI_CLIENT_VERSION": "Client Version: ",
+		"UI_SERVER_INFO": "Server info:",
+		"UI_NAME": "Name:",
+		"UI_VERSION": "Version:",
+		"UI_USERS_ONLINE": "Users online:",
+		"UI_ONLINE_LAST_24_HOURS": "Online last 24 hours",
+		"UI_WEEKLY_WINNERS": "Weekly Winners",
+	}
+}
