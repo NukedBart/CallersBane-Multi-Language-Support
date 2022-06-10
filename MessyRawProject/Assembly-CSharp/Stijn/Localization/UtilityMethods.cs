@@ -10,7 +10,7 @@ namespace Stijn.Localization
 	// Token: 0x02000484 RID: 1156
 	public static class UtilityMethods
 	{
-		// Token: 0x06001A2E RID: 6702 RVA: 0x00096F24 File Offset: 0x00095124
+		// Token: 0x06001A2E RID: 6702 RVA: 0x00097158 File Offset: 0x00095358
 		public static string[,] ParseCSV(string filename)
 		{
 			string fileText = string.Empty;
@@ -26,7 +26,7 @@ namespace Stijn.Localization
 			return UtilityMethods.ParseCSVRaw(fileText);
 		}
 
-		// Token: 0x06001A2F RID: 6703 RVA: 0x00096F6C File Offset: 0x0009516C
+		// Token: 0x06001A2F RID: 6703 RVA: 0x000971A0 File Offset: 0x000953A0
 		public static string[,] ParseCSVRaw(string fileText)
 		{
 			string[,] array = new string[0, 0];
@@ -58,7 +58,7 @@ namespace Stijn.Localization
 			return array;
 		}
 
-		// Token: 0x06001A30 RID: 6704 RVA: 0x0009704C File Offset: 0x0009524C
+		// Token: 0x06001A30 RID: 6704 RVA: 0x00097280 File Offset: 0x00095480
 		public static JSONNode DictionaryToJSON(Dictionary<string, string> dictionary)
 		{
 			JSONNode jsonnode = new JSONObject();
@@ -69,7 +69,7 @@ namespace Stijn.Localization
 			return jsonnode;
 		}
 
-		// Token: 0x06001A31 RID: 6705 RVA: 0x000970B4 File Offset: 0x000952B4
+		// Token: 0x06001A31 RID: 6705 RVA: 0x000972E8 File Offset: 0x000954E8
 		public static bool CheckIntInJSONObject(JSONNode jsonObject, string intName, int? minValue, int? maxValue, int? disallowedValue, string errorPrefix, string errorSuffix, ref StringBuilder errorStringBuilder)
 		{
 			bool result = true;
@@ -157,7 +157,7 @@ namespace Stijn.Localization
 			return result;
 		}
 
-		// Token: 0x06001A32 RID: 6706 RVA: 0x000972D4 File Offset: 0x000954D4
+		// Token: 0x06001A32 RID: 6706 RVA: 0x00097508 File Offset: 0x00095708
 		public static bool CheckVectorInJSONObject(JSONNode jsonObject, string vectorName, int? vectorSize, float? minValue, float? maxValue, float? disallowedValue, string errorPrefix, string errorSuffix, ref StringBuilder errorStringBuilder)
 		{
 			bool result = true;

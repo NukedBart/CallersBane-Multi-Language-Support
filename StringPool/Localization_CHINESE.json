@@ -1,0 +1,22 @@
+{
+	"languages":
+	{
+		"CHINESE":
+		{
+			"localization_key": "LANGUAGE_CHINESE",
+			"culture_code": "zh-CN",
+		}
+	},
+	"text":
+	{
+		"LANGUAGE_ENGLISH": "English CN",
+		"LANGUAGE_CHINESE": "Chinese CN",
+		"UI_CLIENT_VERSION": "Client Version: CN",
+		"UI_SERVER_INFO": "Server info: CN",
+		"UI_NAME": "Name: CN",
+		"UI_VERSION": "Version: CN",
+		"UI_USERS_ONLINE": "Users online: CN",
+		"UI_ONLINE_LAST_24_HOURS": "Online last 24 hours CN",
+		"UI_WEEKLY_WINNERS": "Weekly Winners CN",
+	}
+}

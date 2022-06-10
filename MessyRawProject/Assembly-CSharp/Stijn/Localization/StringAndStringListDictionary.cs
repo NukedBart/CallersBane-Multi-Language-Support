@@ -8,7 +8,7 @@ namespace Stijn.Localization
 	[Serializable]
 	public class StringAndStringListDictionary : Dictionary<string, List<string>>
 	{
-		// Token: 0x0600193C RID: 6460 RVA: 0x00095B00 File Offset: 0x00093D00
+		// Token: 0x0600193C RID: 6460 RVA: 0x00095D34 File Offset: 0x00093F34
 		public void OnBeforeSerialize()
 		{
 			this.m_Dictionary.Clear();
@@ -19,7 +19,7 @@ namespace Stijn.Localization
 			}
 		}
 
-		// Token: 0x0600193D RID: 6461 RVA: 0x00095B74 File Offset: 0x00093D74
+		// Token: 0x0600193D RID: 6461 RVA: 0x00095DA8 File Offset: 0x00093FA8
 		public void OnAfterDeserialize()
 		{
 			base.Clear();
