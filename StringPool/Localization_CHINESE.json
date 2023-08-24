@@ -9,14 +9,17 @@
 	},
 	"text":
 	{
-		"LANGUAGE_ENGLISH": "English CN",
-		"LANGUAGE_CHINESE": "Chinese CN",
-		"UI_CLIENT_VERSION": "Client Version: CN",
-		"UI_SERVER_INFO": "Server info: CN",
-		"UI_NAME": "Name: CN",
-		"UI_VERSION": "Version: CN",
-		"UI_USERS_ONLINE": "Users online: CN",
-		"UI_ONLINE_LAST_24_HOURS": "Online last 24 hours CN",
-		"UI_WEEKLY_WINNERS": "Weekly Winners CN",
+		"LANGUAGE_ENGLISH": "英语",
+		"LANGUAGE_CHINESE": "中文",
+		"UI_CLIENT_VERSION": "客户端版本：",
+		"UI_SERVER_INFO": "服务器信息：",
+		"UI_NAME": "服务器名称",
+		"UI_VERSION": "版本：",
+		"UI_USERS_ONLINE": "在线用户：",
+		"UI_ONLINE_LAST_24_HOURS": "过去 24 小时在线",
+		"UI_WEEKLY_WINNERS": "每周胜榜",
+		"UI_CREDITS": "<color=#bbaa99>制作人员</color>",
+		"UI_POPUP_CREDITS": "制作人员",
+		"UI_BUTTON_CLOSE": "关闭"
 	}
 }
